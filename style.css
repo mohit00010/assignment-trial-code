@@ -24,6 +24,7 @@ body{
     width: 100px;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
 
 }
 .profiletext.imgbox img
@@ -46,8 +47,150 @@ body{
     font-weight: 600px;
     line-height: 1.4em;
 }
+.contactinfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactinfo ul
+{
+    position:relative
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size:18px ;
+    color: #00ffff;
+}
+.contactinfo ul li span
+{
+    color: white;
+    font-weight: 300;
+}
+.contactinfo.education li
+{
+    margin-bottom: 15px;
+}
+.contactinfo.education h5
+{
+    color: rgb(20, 98, 194);
+    font-weight: 500;
+}
+.contactinfo.education h4:nth-child(2){
+    color: rgb(248, 250, 250);
+    font-weight: 500;
+}
+.contactinfo.education h4{
+    color: rgb(248, 250, 250);
+    font-weight: 500;
+}
+.contactinfo.language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(111, 107, 107);
+    display: block;
+    margin-top: 5px;
+}
+.contactinfo.language .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(11, 11, 11);
+}
+.project_year
+{
+    color: rgb(7, 26, 37);
+}
+.title2
+{
+    padding: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: rgb(243, 237, 237);
+}
+.about .name
+{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
 
+}
+.about .name .project_year
+{
+    min-width: 120px;
+    padding-bottom:  15px;
+}
+.about .name .project_year h5
+{
+    color: rgb(47, 54, 119);
+}
+.skills .box 
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
 
+} 
+.skills .box h4
+{
+    color: rgb(234, 239, 237);
+    font-weight: 500;
+}
+.skills .box .percent
+{
+    position: relative;
+    width:100%;
+    height: 6px;
+    background: rgb(111, 107, 107);
+    margin-top: 18px;
+    
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(11, 11, 11); 
+}
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.interest ul li{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+    color: aliceblue;
+}
+.interest ul li .fa
+{
+    color:#00ffff ;
+    font-size: 18px;
+    width:20px ;
+}
 
 
 
@@ -64,7 +207,7 @@ body{
 .main .left
 {
     position: relative;
-    background: green;
+    background: rgb(140, 178, 190);
     padding: 40px;
 }
 .main .right
